@@ -38,7 +38,7 @@ Download WEKA for free: https://www.cs.waikato.ac.nz/~ml/weka/downloading.html
 #### 3. Models
 The WEKA Knowledge Flow Layout is shown as below:
 
-<img src="https://github.com/Andy-TK/COMP90049_Project2/blob/master/Models/WEKA_Knowledge_Flow.jpg" alt="WEKA Knowledge Flow" width="50%"></a>
+<img src="https://github.com/Andy-TK/COMP90049_Project2/blob/master/Models/WEKA_Knowledge_Flow.jpg" alt="WEKA Knowledge Flow" width="70%"></a>
 
 * `WEKA_KF.kf`
 > the WEKA Knowledge Flow layout file.
