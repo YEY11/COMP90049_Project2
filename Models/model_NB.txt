@@ -1,0 +1,363 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     traineval-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    27913
+Attributes:   46
+              and
+              bad
+              best
+              better
+              big
+              country
+              crap
+              damn
+              dance
+              day
+              democrats
+              do
+              fuck
+              gay
+              gift
+              great
+              happy
+              hate
+              ice
+              is
+              job
+              liberals
+              like
+              love
+              my
+              night
+              not
+              obama
+              people
+              racist
+              real
+              shit
+              sick
+              smart
+              so
+              stupid
+              the
+              their
+              they
+              to
+              today
+              trump
+              vote
+              watch
+              we
+              sentiment
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                  Class
+Attribute      negative positive  neutral
+                 (0.22)   (0.29)    (0.5)
+==========================================
+and
+  mean            0.3538   0.3974   0.3305
+  std. dev.       0.6697   0.7042   0.6624
+  weight sum        6100     7959    13854
+  precision          1.6      1.6      1.6
+
+bad
+  mean            0.0231   0.0078   0.0082
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+best
+  mean            0.0054   0.0407   0.0081
+  std. dev.       0.1667    0.202   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+better
+  mean            0.0092   0.0139   0.0078
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+big
+  mean            0.0179   0.0229   0.0131
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+country
+  mean            0.0064   0.0019   0.0029
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+crap
+  mean             0.003   0.0004   0.0006
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+damn
+  mean            0.0038   0.0025   0.0006
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+dance
+  mean            0.0002   0.0023    0.001
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+day
+  mean             0.018   0.0681   0.0279
+  std. dev.       0.1667   0.2693   0.1746
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+democrats
+  mean            0.0025   0.0001   0.0006
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+do
+  mean            0.1859   0.1248   0.1398
+  std. dev.       0.4363   0.3813   0.3845
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+fuck
+  mean            0.0344   0.0059   0.0036
+  std. dev.       0.1911   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+gay
+  mean             0.019   0.0049   0.0114
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+gift
+  mean            0.0007   0.0034   0.0012
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+great
+  mean            0.0044   0.0337   0.0053
+  std. dev.       0.1667   0.1845   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+happy
+  mean            0.0164   0.0766   0.0178
+  std. dev.       0.1667   0.2869   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+hate
+  mean            0.0139   0.0014   0.0025
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+ice
+  mean            0.0034   0.0335   0.0102
+  std. dev.       0.1667   0.2049   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+is
+  mean            0.2597   0.2228   0.1707
+  std. dev.        0.511   0.4692   0.4198
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+job
+  mean            0.0095   0.0049   0.0044
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+liberals
+  mean            0.0134   0.0001   0.0011
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+like
+  mean            0.0611    0.049   0.0409
+  std. dev.       0.2549   0.2267    0.209
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+love
+  mean            0.0048   0.0513   0.0061
+  std. dev.       0.1667   0.2327   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+my
+  mean            0.0561   0.1239   0.0531
+  std. dev.        0.257   0.3738   0.2478
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+night
+  mean            0.0089   0.0423   0.0239
+  std. dev.       0.1667   0.2069   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+not
+  mean              0.11   0.0362   0.0653
+  std. dev.       0.3434   0.1934   0.2599
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+obama
+  mean            0.0172   0.0019   0.0058
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+people
+  mean             0.043   0.0094   0.0137
+  std. dev.       0.2099   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+racist
+  mean            0.0062   0.0001   0.0006
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+real
+  mean            0.0131   0.0063   0.0149
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+shit
+  mean            0.0159    0.004   0.0021
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+sick
+  mean            0.0052   0.0004   0.0009
+  std. dev.         0.25     0.25     0.25
+  weight sum        6100     7959    13854
+  precision          1.5      1.5      1.5
+
+smart
+  mean            0.0007   0.0014   0.0006
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+so
+  mean            0.0593    0.076   0.0401
+  std. dev.       0.2471   0.2766   0.2053
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+stupid
+  mean            0.0066   0.0004   0.0006
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+the
+  mean            0.6487   0.6897   0.6779
+  std. dev.        0.782   0.7796   0.7874
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+their
+  mean            0.0293   0.0102   0.0152
+  std. dev.       0.1764   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+they
+  mean            0.0684   0.0176   0.0311
+  std. dev.       0.2789   0.1667   0.1891
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+to
+  mean            0.3895     0.41   0.3689
+  std. dev.       0.6189   0.6328   0.6191
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+today
+  mean            0.0069   0.0185   0.0098
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+trump
+  mean            0.0541   0.0048   0.0217
+  std. dev.       0.2333   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+vote
+  mean            0.0084   0.0028   0.0062
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+watch
+  mean            0.0105   0.0235   0.0131
+  std. dev.       0.1667   0.1667   0.1667
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+we
+  mean              0.05   0.0587   0.0421
+  std. dev.       0.2401    0.253   0.2219
+  weight sum        6100     7959    13854
+  precision            1        1        1
+
+
+
+Time taken to build model: 0.24 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       14868               53.2655 %
+Incorrectly Classified Instances     13045               46.7345 %
+Kappa statistic                          0.2009
+Mean absolute error                      0.3723
+Root mean squared error                  0.4576
+Relative absolute error                 89.4085 %
+Root relative squared error            100.2832 %
+Total Number of Instances            27913     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.255    0.098    0.421      0.255    0.317      0.191    0.661     0.348     negative
+                 0.387    0.140    0.525      0.387    0.445      0.274    0.673     0.469     positive
+                 0.739    0.577    0.558      0.739    0.636      0.170    0.611     0.579     neutral
+Weighted Avg.    0.533    0.348    0.518      0.533    0.512      0.204    0.640     0.497     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+  1553   737  3810 |     a = negative
+   575  3078  4306 |     b = positive
+  1564  2053 10237 |     c = neutral
+

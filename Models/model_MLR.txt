@@ -1,0 +1,189 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     traineval-weka.filters.unsupervised.attribute.Remove-R1
+Instances:    27913
+Attributes:   46
+              and
+              bad
+              best
+              better
+              big
+              country
+              crap
+              damn
+              dance
+              day
+              democrats
+              do
+              fuck
+              gay
+              gift
+              great
+              happy
+              hate
+              ice
+              is
+              job
+              liberals
+              like
+              love
+              my
+              night
+              not
+              obama
+              people
+              racist
+              real
+              shit
+              sick
+              smart
+              so
+              stupid
+              the
+              their
+              they
+              to
+              today
+              trump
+              vote
+              watch
+              we
+              sentiment
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                Class
+Variable     negative  positive
+===============================
+and            0.0396    0.1063
+bad            1.0361   -0.1093
+best          -0.4572    1.6945
+better         0.1352    0.5395
+big            0.3306    0.4956
+country        0.6343   -0.4181
+crap           1.4786   -0.2751
+damn           1.5008    1.0792
+dance         -2.0924    0.5739
+day           -0.3987     0.646
+democrats      0.9041   -1.0959
+do              0.174   -0.1384
+fuck           2.1968    0.2076
+gay            0.4476   -0.9604
+gift          -0.6874    0.8446
+great         -0.2332    1.8917
+happy         -0.1485    1.3459
+hate           1.5496   -0.9877
+ice           -1.0069     0.913
+is             0.3806    0.2496
+job             0.597    -0.024
+liberals       2.4559   -2.2487
+like            0.232    0.1508
+love           -0.454    2.0648
+my             0.0137    0.6239
+night          -0.862    0.5405
+not            0.4091   -0.6585
+obama          0.9074   -0.8307
+people         1.0152   -0.3611
+racist         2.1563   -1.6632
+real          -0.2282   -0.8337
+shit           1.8303    0.5293
+sick           1.8291   -0.9344
+smart         -0.0446    1.0517
+so             0.2382     0.554
+stupid         2.3486   -0.3231
+the           -0.0667    0.0065
+their          0.4649    -0.271
+they           0.6107   -0.5036
+to             0.0248    0.0844
+today         -0.3897    0.4414
+trump          0.7619   -1.3126
+vote            0.181   -0.5164
+watch         -0.1899    0.4464
+we             0.1222    0.2872
+Intercept     -1.1408   -0.9195
+
+
+Odds Ratios...
+                Class
+Variable     negative  positive
+===============================
+and            1.0404    1.1122
+bad            2.8181    0.8965
+best           0.6331    5.4442
+better         1.1447    1.7151
+big            1.3918    1.6415
+country        1.8857    0.6583
+crap           4.3867    0.7595
+damn           4.4852    2.9423
+dance          0.1234    1.7752
+day            0.6712    1.9079
+democrats      2.4696    0.3343
+do             1.1901    0.8708
+fuck           8.9966    1.2308
+gay            1.5645    0.3827
+gift           0.5029     2.327
+great           0.792    6.6303
+happy           0.862    3.8418
+hate           4.7096    0.3724
+ice            0.3653    2.4917
+is             1.4631    1.2835
+job            1.8166    0.9763
+liberals      11.6574    0.1055
+like           1.2611    1.1627
+love           0.6351    7.8839
+my             1.0138    1.8661
+night          0.4223    1.7169
+not            1.5055    0.5176
+obama           2.478    0.4357
+people           2.76    0.6969
+racist          8.639    0.1895
+real            0.796    0.4344
+shit           6.2359    1.6977
+sick           6.2283    0.3928
+smart          0.9564    2.8625
+so             1.2689    1.7402
+stupid        10.4713    0.7239
+the            0.9355    1.0065
+their          1.5919    0.7626
+they           1.8416    0.6044
+to             1.0251    1.0881
+today          0.6773    1.5549
+trump          2.1424    0.2691
+vote           1.1984    0.5966
+watch           0.827    1.5627
+we               1.13    1.3327
+
+
+Time taken to build model: 6.25 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       15524               55.6157 %
+Incorrectly Classified Instances     12389               44.3843 %
+Kappa statistic                          0.1897
+Mean absolute error                      0.3794
+Root mean squared error                  0.4359
+Relative absolute error                 91.1229 %
+Root relative squared error             95.5264 %
+Total Number of Instances            27913     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.169    0.034    0.581      0.169    0.262      0.229    0.683     0.417     negative
+                 0.273    0.066    0.623      0.273    0.380      0.283    0.692     0.513     positive
+                 0.889    0.735    0.544      0.889    0.675      0.197    0.627     0.586     neutral
+Weighted Avg.    0.556    0.391    0.575      0.556    0.501      0.229    0.658     0.529     
+
+=== Confusion Matrix ===
+
+     a     b     c   <-- classified as
+  1032   323  4745 |     a = negative
+   201  2176  5582 |     b = positive
+   543   995 12316 |     c = neutral
+
