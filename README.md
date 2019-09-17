@@ -1,5 +1,5 @@
-### COMP90049 Project1 Lexical Normalization Based on Tweets
-This is the Project 1 for COMP90049 (Knowledge Technologies) from the University of Melbourne.
+### COMP90049 Project 2: Tweets Sentiment Analysis Based on WEKA
+This is the Project 2 for COMP90049 (Knowledge Technologies) from the University of Melbourne.
 
 This project implements three machine learning models, including Naïve Bayes, Multinomial Logistic Regression and Random Forest, based on WEKA for tweets sentiment analysis. For more details, please check the [project specifications](https://github.com/Andy-TK/COMP90049_Project2/blob/master/2019S1-90049P2-spec.pdf) and [project report](https://github.com/Andy-TK/COMP90049_Project2/blob/master/COMP90049%20Project%202%20Report.pdf).
 
