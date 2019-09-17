@@ -37,7 +37,7 @@ Download WEKA for free: https://www.cs.waikato.ac.nz/~ml/weka/downloading.html
 
 #### 3. Models
 The WEKA Knowledge Flow Layout is shown as below:
-![WEKA Knowledge Flow](https://github.com/Andy-TK/COMP90049_Project2/blob/master/Models/WEKA_Knowledge_Flow.jpg "WEKA Knowledge Flow")
+<img src="https://github.com/Andy-TK/COMP90049_Project2/blob/master/Models/WEKA_Knowledge_Flow.jpg" alt="WEKA Knowledge Flow" width="50%"></a>
 
 * `WEKA_KF.kf`
 > the WEKA Knowledge Flow layout file.
@@ -80,13 +80,13 @@ The WEKA Knowledge Flow Layout is shown as below:
 
 #### 4. ROC
 The negative ROC results of three models plotted through `roc_plot.py`:
-![Negative ROC](https://github.com/Andy-TK/COMP90049_Project2/blob/master/ROC/ROC_negative.png "Negative ROC")
+<img src="https://github.com/Andy-TK/COMP90049_Project2/blob/master/ROC/ROC_negative.png" alt="Negative ROC" width="70%"></a>
 
 The neutral ROC results of three models plotted through `roc_plot.py`:
-![Neutral ROC](https://github.com/Andy-TK/COMP90049_Project2/blob/master/ROC/ROC_neutral.png "Neutral ROC")
+<img src="https://github.com/Andy-TK/COMP90049_Project2/blob/master/ROC/ROC_neutral.png" alt="Neutral ROC" width="70%"></a>
 
 The positive ROC results of three models plotted through `roc_plot.py`:
-![Positive ROC](https://github.com/Andy-TK/COMP90049_Project2/blob/master/ROC/ROC_positive.png "Positive ROC")
+<img src="https://github.com/Andy-TK/COMP90049_Project2/blob/master/ROC/ROC_positive.png" alt="Positive ROC" width="70%"></a>
 
 * `negative_MLR.csv`
 > WEKA negative ROC results with csv format of Multinomial LR.
