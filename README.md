@@ -5,13 +5,13 @@ This project implements three machine learning models, including Naïve Bayes, M
 
 
 #### What is WEKA?
-Weka is a collection of machine learning algorithms for data mining tasks. It contains tools for data preparation, classification, regression, clustering, association rules mining, and visualization. Weka also supports deep learning.
+WEKA is a collection of machine learning algorithms for data mining tasks. It contains tools for data preparation, classification, regression, clustering, association rules mining, and visualization. WEKA also supports deep learning.
 
 <a href="https://www.cs.waikato.ac.nz/~ml/weka/index.html" target="_blank"><img src="https://github.com/Andy-TK/COMP90049_Project2/blob/master/Models/WEKA_LOGO.jpg" alt="WEKA Logo" width="200"></a>
 
-Weka is open source software issued under the [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.html).
+WEKA is open source software issued under the [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.html).
 
-Here are several free online courses that teach machine learning and data mining using Weka. The videos for the courses are available on [Youtube](https://www.youtube.com/user/WekaMOOC). For more details, please check [Weka Manual](https://github.com/Andy-TK/COMP90049_Project2/blob/master/WekaManual.pdf).
+Here are several free online courses that teach machine learning and data mining using Weka. The videos for the courses are available on [Youtube](https://www.youtube.com/user/WekaMOOC). For more details, please check [WEKA Manual](https://github.com/Andy-TK/COMP90049_Project2/blob/master/WekaManual.pdf).
 
 Download WEKA for free: https://www.cs.waikato.ac.nz/~ml/weka/downloading.html
 
