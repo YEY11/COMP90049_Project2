@@ -4,7 +4,7 @@ This is the Project 2 for COMP90049 (Knowledge Technologies) from the University
 This project implements three machine learning models, including Naïve Bayes, Multinomial Logistic Regression and Random Forest, based on WEKA for tweets sentiment analysis. For more details, please check the [project specifications](https://github.com/Andy-TK/COMP90049_Project2/blob/master/2019S1-90049P2-spec.pdf) and [project report](https://github.com/Andy-TK/COMP90049_Project2/blob/master/COMP90049%20Project%202%20Report.pdf).
 
 
-#### What is WEKA?
+### 1. What is WEKA?
 WEKA is a collection of machine learning algorithms for data mining tasks. It contains tools for data preparation, classification, regression, clustering, association rules mining, and visualization. WEKA also supports deep learning.
 
 <a href="https://www.cs.waikato.ac.nz/~ml/weka/index.html" target="_blank"><img src="https://github.com/Andy-TK/COMP90049_Project2/blob/master/Models/WEKA_LOGO.jpg" alt="WEKA Logo" width="200"></a>
@@ -15,7 +15,7 @@ Here are several free online courses that teach machine learning and data mining
 
 Download WEKA for free: https://www.cs.waikato.ac.nz/~ml/weka/downloading.html
 
-#### 1. Data
+### 2. Data
 * `traineval.arff`
 > A combination of given training set and evaluation set, which is used for training models in WEKA based on 10-folds cross validation. There are 47 attributes including tweets id, some linguistic vocabularies and sentiment label.
 
@@ -25,7 +25,7 @@ Download WEKA for free: https://www.cs.waikato.ac.nz/~ml/weka/downloading.html
 * `test-tweets.txt`, `traineval-labels.txt` and `traineval-tweets.txt` 
 > are used in `topic_analysis.py` for the sentiment analysis of users based on tweets text and given topics.
 
-#### 2. Code
+### 3. Code
 * `roc_plot.py`
 > is used to plot the ROC curves of three machine learning models based on the relevant ROC result csv files (e.g. `negative_NB.csv`) exported from WEKA.
 
@@ -35,7 +35,7 @@ Download WEKA for free: https://www.cs.waikato.ac.nz/~ml/weka/downloading.html
 * `topic_analysis.py`
 > is used to is used for tweets sentiment analysis based on tweets text and a given topic.
 
-#### 3. Models
+### 4. Models
 The WEKA Knowledge Flow Layout is shown as below:
 
 <img src="https://github.com/Andy-TK/COMP90049_Project2/blob/master/Models/WEKA_Knowledge_Flow.jpg" alt="WEKA Knowledge Flow" width="70%"></a>
@@ -79,7 +79,7 @@ The WEKA Knowledge Flow Layout is shown as below:
 * `test-labels-RF.txt`
 > the test-labels result of Random Forest used in `topic_analysis.py`.
 
-#### 4. ROC
+### 5. ROC
 The negative ROC results of three models plotted through `roc_plot.py`:
 <img src="https://github.com/Andy-TK/COMP90049_Project2/blob/master/ROC/ROC_negative.png" alt="Negative ROC" width="50%"></a>
 
@@ -142,5 +142,3 @@ The positive ROC results of three models plotted through `roc_plot.py`:
 
 * `positive_RF.arff`
 > WEKA positive ROC results with arff format of Random Forest.
-
-
